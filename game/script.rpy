@@ -72,6 +72,7 @@ label manager_hint:
 label order_process:
     m "Lets get started. Would you like a burrito or a bowl?"
 
+    play music "sunflower-slow-drag.ogg" # Play music example
 
     menu:
         "Burrito":
