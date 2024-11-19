@@ -1,0 +1,285 @@
+Character roles (5-6):
+Art Student
+CS Student
+International Student
+Undecided Student
+COLA Student
+Manager (tutorial)
+What are their problems? What are their personalities, quirks?
+Make names puns
+
+Stations:
+Order taker/burrito warmer/chips getter (Tutorial)
+Rice and beans
+Protein
+Salsas
+Toppings
+Cashier
+
+Characters:
+Overall: Their name appears on top of their text box, and in the case of the manager, they have a special color or maybe the word “manager” written small somewhere
+You have to talk to the characters to figure out the problem, then you have to help them find a solution
+Ethnicities should be diverse, but are not specified below. 
+
+Manager: “Aman Ager” (ah-mahn ah-grr), he/him
+Tutorial character
+He lets you know that whatever you choose doesn’t affect the amounts, just how they feel
+Introduces the premise at the beginning
+Gives you tips every new loop
+Burrito or bowl?
+You don’t have to talk to him to get it right since it’s the order station
+Appearance: Global manager outfit, brown hair
+Art Student: “Finn Hart” (finn haert), they/them
+Rice and beans
+Problem: Struggling on a creative project that is hurting them because they bit off more than they could chew
+Solution: You help them figure out what’s really important about the project so they can time manage better and get some sleep
+Appearance: Brightly colored hair, mullet, septum piercing, small heart-shaped tattoo on the neck, colored nails
+COLA Student: “Paige Turner” (pay-ge ter-ner), she/they
+Protein
+Problem: Stretched thin between a bunch of extracurriculars, schoolwork, and the job, so their grades are suffering
+Solution: Help make her feel like she isn’t a failure for reducing hours in work or clubs and focusing more on schoolwork
+Appearance: Hair up in a tight bun, small stud earrings, blonde hair, baggy eyes
+CS Student: “Cee Sharpe” (see sharp), she/her
+Salsas
+Problem: She’s losing her mind on a coding project (“mumbles in code”)
+Solution: You help her by telling her to step away, “the bug will make itself known if you take a step back and look at it later”
+Appearance: Baggy eyes, disheveled, black hair, black clothes and vertical rectangular earrings, small purple gauges
+International Student: “Fara Way” (fah-rah wey), he/him
+Toppings
+Problem: He’s having trouble fitting in because they don’t speak English very well
+Solution: You tell him about some campus community and help them know that they’re not alone
+Appearance: short hair, long nose, strong jaw
+Undecided Student: “Indi Cyciv” (in-dee sy-sive), he/they
+Cashier
+Problem: Doesn’t know what they want to do here, feels discouraged
+Solution: You help them figure out a sense of direction/passion
+Appearance: full, textured hair (corkscrew/coils), small diamond earring studs, wide nose
+
+Tutorial Dialogue Flow Chart
+
+Manager Interactions:
+First time you interact with him, you get what is written above. Each subsequent time, he makes a small comment after you click YES that acts as a hint, such as:
+The item you choose doesn’t affect the amount you receive
+Make someone smile today!
+You’re the last customer so feel free to take your time chatting with the employees
+Etc.
+
+Employee Interactions:
+Knock them out of a stupor or compliment their appearance or something along those lines to start a conversation. Sometimes the character might ask you an out-of-pocket question like “Do you ever feel lonely” or something and you respond
+Once the character ends the interaction with you, you can choose what you wanted on the burrito or in the bowl
+Emotions: smile, disappointment, surprised, neutral
+Depending on the conversation, you get either the perfect amount, which makes a little thing pop up, or the incorrect amount or thing. 
+Rice and beans: too much rice, forgets the beans
+Protein: wrong one
+Salsas: wrong one
+Toppings: not enough
+Cashier: incorrect amount tended
+
+Employee Dialogue:
+Finn Hart
+Finn: “Do you ever feel… like a plastic bag?”
+You: CHOOSE
+“Drifting through the wind?” - GOOD1
+“What?” - BAD1
+GOOD1
+Finn: *surprise* “Yes! Hoping to start again?”
+Finn: “That’s how I’ve been feeling with this project lately…”
+You: CHOOSE
+“What project?” - GOOD2
+“I just want my food…” - BAD2
+BAD1
+Finn: “...”
+Finn: *disappointment* “Nevermind”
+Player receives too much rice and, if they ordered beans, none of those
+GOOD2
+Finn: “It’s this [ask Marigold what it should be]”
+Finn: “I’m really into it, but it’s honestly taking over my life…”
+Finn: “I don’t want to stop doing this project because I’m super passionate about it, but my grades are suffering…”
+You: CHOOSE
+“Well, what makes you the most excited about it?” - GOOD3
+“I’m not really qualified to answer this question” - BAD3
+BAD2 & BAD3 & BAD4
+BAD1 ending
+GOOD3
+Finn: “Well what I really like working on is [blah]”
+You: CHOOSE
+“You should probably trim the project to be centered on that, since it’s what you’re passionate about. ” - GOOD4
+Shortened line when choosing: “You should trim it down.”
+“Well, that’s cool. Can I get my food now?” - BAD4
+GOOD4
+Finn: “I can’t cuz I…”
+Finn: “Well… hm”
+Finn: “I guess you’re right. That would honestly make the project even cooler.”
+Finn: *smiling* “Thanks for the advice, I feel much better about it now.”
+Player receives the perfect amount of rice and the beans that they requested, if they did. Little jingle sounds and a little icon pops up showing that they did it perfectly
+
+Paige Turner
+Paige: *staring blankly*
+You: “…”
+You: “Are you… alive?”
+Paige: *blinks* “Oh! I’m sorry. I must have fallen asleep standing up again.”
+You: CHOOSE
+“Are you like… good?” - GOOD1
+“Good morning. Can I have my food now?” - BAD1
+GOOD1
+Paige: “Uhm…”
+Paige: “Not really…”
+You CHOOSE:
+“Mind if I ask what’s bothering you?” - GOOD2
+“Well, we’re all mentally ill, aren’t we?” - BAD2
+BAD1
+Paige: “...”
+Paige: *disappointed* “Sorry for bothering you, here’s your food.”
+Player receives the incorrect protein, randomly generated
+GOOD2
+Paige: “Well I’m involved in my sorority, I’m on E-board for two clubs, and in one more as a normal member. I’m also taking 18 credit hours and working two jobs, 10 hours a week each.”
+Paige: “And now my grades are suffering.”
+You: CHOOSE
+“Wow, that’s a lot on your plate” - GOOD3
+“Damn dude, that’s crazy.” - BAD3
+BAD2 & BAD3
+BAD1 ending
+GOOD3
+Paige: “Yeah, it is”
+Paige: “But I don't want to let anyone down in my clubs or at work, so I have to keep doing all of it.”
+You: CHOOSE
+“You won’t let anyone down by focusing on school while you’re at school. You should probably try to reduce your hours in work or in clubs to try and focus on school.” - GOOD4
+Shortened line when choosing: “Focus on school while you’re in school”
+“Well, I hope you can figure that out. Can I have my food now?” - BAD4
+GOOD4
+Paige: “Well I..”
+Paige: “You’ve got a point. I think I will reduce my club hours, because I really need the money. Hopefully my grades will start to improve because of it.”
+Paige: *smiling* “Thank you for the advice, I really appreciate it” 
+Player receives the perfect amount of the protein that they chose. Little jingle sounds and a little icon pops up showing that they did it perfectly 
+
+Cee Sharpe
+Cee: *mumbles in code* “I mean, I’m incrementing the variable correctly but it’s still stuck in an infinite recursion loop…”
+Cee: “Talking to that damn duck did nothing…”
+You: “...Hello?”
+Cee: *surprised* “Oh! Sorry. Didn’t see you there.”
+Cee: “I’ve been a bit… distracted”
+You: CHOOSE
+“By what?” - GOOD1
+“Sorry to hear that. Can I get my food now?” - BAD1
+GOOD1
+Cee: “I’ve just been stuck on this one part of my coding project. No matter what I do, I can’t figure it out.”
+You: CHOOSE
+“Is it a bug or do you just not understand what’s being asked?” - GOOD2
+“Welp. I hope you figure it out.” - BAD2
+BAD1
+Cee: “...”
+Cee: *disappointment* “Oh…”
+Player receives the incorrect salsa. Randomly generated
+GOOD2
+Cee: “It’s a bug. I’ve been working at it non-stop and everything I throw at the problem won’t stick.”
+You: CHOOSE
+“Have you considered taking a step back from it and working on something else?” - GOOD3
+Shortened line when choosing: “You should step back from it”
+“I’m sorry to hear that. Coding sucks.” - BAD3
+BAD2 & BAD3 & BAD4
+BAD1 ending
+GOOD3
+Cee: “But I need to get this assignment done soon. The deadline is coming up quick”
+You: CHOOSE
+“From my experience, it will take less time overall to take a step back. Once you do, you’ll see the problem for what it is and you’ll get it done much faster” - GOOD4
+Shortened line for choosing: “Step back and get a different perspective on it”
+“Better get on that then” - BAD4
+GOOD4
+Cee: “...”
+Cee: *smiling* “You’re right, that makes sense. Thanks for the advice.”
+Player receives the perfect amount of salsa. Little jingle sounds and a little icon pops up showing that they did it perfectly 
+
+Fara Way
+Fara: *practicing English*
+Fara: “Oh, lo siento, I didn’t see you there.”
+Fara: “I’m practicing my English. It’s not much good…”
+You: CHOOSE
+“It sounds pretty good to me!” - GOOD1
+“Sorry, what did you say?” - BAD1
+GOOD1
+Fara: “[spanish version of ‘aw, shucks’]”
+Fara: “Honestly, not everyone thinks that. It is hard talking to people in class.”
+You: CHOOSE
+“Why is that? You seem easy to talk to to me” - GOOD2
+“Yeah, people suck” - BAD2
+BAD1
+*disappointed* “...”
+Silently gives player not enough of the toppings that they ordered
+GOOD2
+Fara: “Classmates don’t want to talk to someone that doesn’t understand them all of the time.”
+Fara: “I just want to fit in with people.”
+You: CHOOSE
+“Well, have you looked into campus groups at all?” - GOOD3
+“Good luck with that.” - BAD3
+BAD2 & BAD3 & BAD4
+BAD1 ending
+GOOD3
+Fara: “No entiendo…”
+Fara: “You mean, a campus group with people from [Insert hispanic/latin country here]?”
+You: CHOOSE
+“I mean, kind of! There are groups that have a bunch of people who also speak Spanish and have similar experiences as you. You should check them out!” - GOOD4
+Shortened line for choosing: “There are groups of people who can relate with you!”
+“Eh, it’s hard to explain. Sorry” - BAD4
+GOOD4
+Fara: *smiling* “I will look at it soon, thank you so much for telling me that!”
+Player receives the perfect amount of toppings that they ordered. Little jingle sounds and a little icon pops up showing that they did it perfectly
+
+Indi Cyciv
+Problem: Doesn’t know what they want to do here, feels discouraged
+Solution: You help him figure out a sense of direction/passion
+Indi: *says nothing while register noises play* “...”
+You: CHOOSE
+“Do I need to talk to you about your issues too?” - GOOD1
+“What’s my total?” - BAD1
+GOOD1
+Indi: “...”
+Indi: “What?”
+Indi: “Oh, uh… I mean I guess I’m having issues”
+You: CHOOSE
+“Do you mind if I ask what sort of issues?” - GOOD2
+“Well, that’s too bad. Hey, can you print my receipt?” - BAD2
+BAD1
+Indi: “Your total is [insert incorrect amt here]”
+*register noises*
+*receipt printing noises*
+Indi: *disappointed* “Thanks for dining with us.”
+Player receives their burrito/bowl (high-res img) and says a line according to how bad they did:
+5/5 BAD ENDINGS → “... Fuck”
+4/5 BAD ENDINGS → “... Damn”
+3/5 BAD ENDINGS → “... Could be worse, I guess”
+2/5 BAD ENDINGS → “... Dang, they made me the wrong thing”
+1/5 BAD ENDINGS → “... Welp, that’s okay”
+Player receives stats or some similar readout that indicates what they did wrong?
+GOOD2
+Indi: “Well, uh, I guess it’s the fact that I’m just kinda lost right now.”
+Indi: “I’ve already switched majors, and I’m still unhappy”
+You: CHOOSE
+“Well, what drew you to those previous majors?” - GOOD3
+“Hopefully you find something that works for you. I’ll be paying with Dining by the way” - BAD3
+BAD2 & BAD3 & BAD4 & BAD5
+BAD1 ending
+GOOD3
+Indi: “Well, in Comp. Sci, I really liked the problem solving, and in New Media Interactive, I like doing the design stuff, but I still feel like I’m missing something” 
+You: CHOOSE
+“Have you heard of Humanities, Computing, and Design?” - GOOD4
+“Have you considered ringing me up for my order?” - BAD4
+GOOD4
+Indi: “... What?”
+You: CHOOSE
+“It’s a multidisciplinary major that combines the aspects of those two things that you liked about the other majors you did and adds in a humanities background, which is what a lot of people feel they miss out on.” - GOOD5
+Shortened for display: “It’s a multidisciplinary major, you should check it out!”
+“Ah, nevermind. You can ring me up now” - BAD5
+GOOD5
+Indi: “That…”
+Indi: *smiling* “Actually sounds like what I've been looking for!”
+Indi: “I’ll definitely check it out, thanks for the advice”
+*register noises*
+Indi: “Your total is [correct amount]”
+*receipt printing noises*
+Indi: “Thanks for dining with us!”
+Player receives their burrito/bowl (high-res img) and says a line according to how bad they did:
+4/5 BAD ENDINGS → “... Damn”
+3/5 BAD ENDINGS → “... Could be worse, I guess”
+2/5 BAD ENDINGS → “... Dang, they made me the wrong thing”
+1/5 BAD ENDINGS → “... Welp, that’s okay”
+0/5 BAD ENDINGS → “Nice!” 
