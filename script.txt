@@ -243,6 +243,7 @@ Indi: “Your total is [insert incorrect amt here]”
 *register noises*
 *receipt printing noises*
 Indi: *disappointed* “Thanks for dining with us.”
+
 Player receives their burrito/bowl (high-res img) and says a line according to how bad they did:
 5/5 BAD ENDINGS → “... Fuck”
 4/5 BAD ENDINGS → “... Damn”

@@ -1,0 +1,497 @@
+2024-11-21 20:40:48 UTC
+macOS-10.16-x86_64-i386-64bit
+Ren'Py 8.3.2.24090902
+
+Early init took 0.08s
+Loading error handling took 0.06s
+Loading script took 0.58s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.10s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/Users/cats/Library/RenPy/backups/falsaritas_perfect_order':
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.05s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Interface start took 0.23s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel Iris OpenGL Engine'
+Version: b'2.1 INTEL-16.5.14'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1178, 663) drawable=(2356, 1326)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 168, in script
+    $ project = random.choice(projects)
+  File "/Users/cats/Desktop/renpy-8.3.2-sdk/renpy/ast.py", line 821, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "/Users/cats/Desktop/renpy-8.3.2-sdk/renpy/python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/script.rpy", line 168, in <module>
+    $ project = random.choice(projects)
+NameError: name 'random' is not defined
+
+While running game code:
+  File "game/script.rpy", line 168, in script
+    $ project = random.choice(projects)
+  File "game/script.rpy", line 168, in <module>
+    $ project = random.choice(projects)
+NameError: name 'random' is not defined
+Resetting cache.
+Early init took 70.73s
+Loading error handling took 0.05s
+Loading script took 0.32s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/Users/cats/Library/RenPy/backups/falsaritas_perfect_order':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.12s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel Iris OpenGL Engine'
+Version: b'2.1 INTEL-16.5.14'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1178, 663) drawable=(2356, 1326)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 171, in script
+    f "It’s this {project} I’ve been working on for my art class."
+  File "/Users/cats/Desktop/renpy-8.3.2-sdk/renpy/ast.py", line 2573, in execute
+    Say.execute(self)
+  File "/Users/cats/Desktop/renpy-8.3.2-sdk/renpy/ast.py", line 615, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "/Users/cats/Desktop/renpy-8.3.2-sdk/renpy/exports/sayexports.py", line 132, in say
+    who(what, *args, **kwargs)
+  File "/Users/cats/Desktop/renpy-8.3.2-sdk/renpy/character.py", line 1455, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "/Users/cats/Desktop/renpy-8.3.2-sdk/renpy/character.py", line 1106, in do_display
+    display_say(who,
+  File "/Users/cats/Desktop/renpy-8.3.2-sdk/renpy/character.py", line 803, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "/Users/cats/Desktop/renpy-8.3.2-sdk/renpy/ui.py", line 301, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "/Users/cats/Desktop/renpy-8.3.2-sdk/renpy/display/core.py", line 2215, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "/Users/cats/Desktop/renpy-8.3.2-sdk/renpy/display/core.py", line 2879, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+  File "/Users/cats/Desktop/renpy-8.3.2-sdk/renpy/display/core.py", line 1381, in draw_screen
+    surftree = renpy.display.render.render_screen(
+  File "render.pyx", line 486, in renpy.display.render.render_screen
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "/Users/cats/Desktop/renpy-8.3.2-sdk/renpy/display/layout.py", line 903, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "/Users/cats/Desktop/renpy-8.3.2-sdk/renpy/display/layout.py", line 903, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "/Users/cats/Desktop/renpy-8.3.2-sdk/renpy/display/layout.py", line 903, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "/Users/cats/Desktop/renpy-8.3.2-sdk/renpy/display/screen.py", line 754, in render
+    child = renpy.display.render.render(self.child, w, h, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "/Users/cats/Desktop/renpy-8.3.2-sdk/renpy/display/layout.py", line 903, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "/Users/cats/Desktop/renpy-8.3.2-sdk/renpy/display/layout.py", line 1454, in render
+    surf = render(child,
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "/Users/cats/Desktop/renpy-8.3.2-sdk/renpy/display/layout.py", line 903, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "/Users/cats/Desktop/renpy-8.3.2-sdk/renpy/text/text.py", line 2540, in render
+    virtual_layout = Layout(self, width, height, renders, drawable_res=False, size_only=True)
+  File "/Users/cats/Desktop/renpy-8.3.2-sdk/renpy/text/text.py", line 733, in __init__
+    self.paragraphs = self.segment(text.tokens, style, renders, text)
+  File "/Users/cats/Desktop/renpy-8.3.2-sdk/renpy/text/text.py", line 1529, in segment
+    raise Exception("Unknown text tag %r" % text)
+Exception: Unknown text tag 'project'
+
+While processing text tag {project} in 'It’s this {project} I’ve been working on for my art class.'.:
+  File "game/script.rpy", line 171, in script
+    f "It’s this {project} I’ve been working on for my art class."
+Exception: Unknown text tag 'project'
+Resetting cache.
+Early init took 172.32s
+Loading error handling took 0.03s
+Loading script took 0.30s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/Users/cats/Library/RenPy/backups/falsaritas_perfect_order':
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel Iris OpenGL Engine'
+Version: b'2.1 INTEL-16.5.14'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1178, 663) drawable=(2356, 1326)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 187, in script
+    f "Well, what I really like working on is [blah]."
+  File "/Users/cats/Desktop/renpy-8.3.2-sdk/renpy/ast.py", line 2573, in execute
+    Say.execute(self)
+  File "/Users/cats/Desktop/renpy-8.3.2-sdk/renpy/ast.py", line 615, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "/Users/cats/Desktop/renpy-8.3.2-sdk/renpy/exports/sayexports.py", line 132, in say
+    who(what, *args, **kwargs)
+  File "/Users/cats/Desktop/renpy-8.3.2-sdk/renpy/character.py", line 1440, in __call__
+    what = self.prefix_suffix("what", self.what_prefix, what, self.what_suffix)
+  File "/Users/cats/Desktop/renpy-8.3.2-sdk/renpy/character.py", line 1354, in prefix_suffix
+    return (sub(prefix) + sub(body) + sub(suffix))
+  File "/Users/cats/Desktop/renpy-8.3.2-sdk/renpy/character.py", line 1334, in sub
+    return renpy.substitutions.substitute(s, scope=scope, force=force, translate=translate)[0]
+  File "/Users/cats/Desktop/renpy-8.3.2-sdk/renpy/substitutions.py", line 373, in substitute
+    s = interpolate(s, variables) # type: ignore
+  File "/Users/cats/Desktop/renpy-8.3.2-sdk/renpy/substitutions.py", line 86, in interpolate
+    raise e
+  File "/Users/cats/Desktop/renpy-8.3.2-sdk/renpy/substitutions.py", line 78, in interpolate
+    value = renpy.python.py_eval(code, {}, scope)
+  File "/Users/cats/Desktop/renpy-8.3.2-sdk/renpy/python.py", line 1209, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "/Users/cats/Desktop/renpy-8.3.2-sdk/renpy/python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "<none>", line 1, in <module>
+NameError: name 'blah' is not defined
+
+While running game code:
+  File "game/script.rpy", line 187, in script
+    f "Well, what I really like working on is [blah]."
+NameError: name 'blah' is not defined
+Resetting cache.
+Early init took 1013.02s
+Loading error handling took 0.03s
+Loading script took 0.34s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/Users/cats/Library/RenPy/backups/falsaritas_perfect_order':
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel Iris OpenGL Engine'
+Version: b'2.1 INTEL-16.5.14'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1178, 663) drawable=(2356, 1326)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 213, in script
+    with pause(1)
+  File "/Users/cats/Desktop/renpy-8.3.2-sdk/renpy/ast.py", line 1354, in execute
+    trans = renpy.python.py_eval(self.expr)
+  File "/Users/cats/Desktop/renpy-8.3.2-sdk/renpy/python.py", line 1209, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "/Users/cats/Desktop/renpy-8.3.2-sdk/renpy/python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 213, in <module>
+    with pause(1)
+NameError: name 'pause' is not defined
+
+While running game code:
+  File "game/script.rpy", line 213, in script
+    with pause(1)
+  File "game/script.rpy", line 213, in <module>
+    with pause(1)
+NameError: name 'pause' is not defined
+Resetting cache.
+Early init took 1040.61s
+Loading error handling took 0.03s
+Loading script took 0.28s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.07s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to '/Users/cats/Library/RenPy/backups/falsaritas_perfect_order':
+Dump and make backups took 0.14s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.10s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel Iris OpenGL Engine'
+Version: b'2.1 INTEL-16.5.14'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1178, 663) drawable=(2356, 1326)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 213, in script
+    with pause(1)
+  File "/Users/cats/Desktop/renpy-8.3.2-sdk/renpy/ast.py", line 1354, in execute
+    trans = renpy.python.py_eval(self.expr)
+  File "/Users/cats/Desktop/renpy-8.3.2-sdk/renpy/python.py", line 1209, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "/Users/cats/Desktop/renpy-8.3.2-sdk/renpy/python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 213, in <module>
+    with pause(1)
+NameError: name 'pause' is not defined
+
+While running game code:
+  File "game/script.rpy", line 213, in script
+    with pause(1)
+  File "game/script.rpy", line 213, in <module>
+    with pause(1)
+NameError: name 'pause' is not defined
+Resetting cache.
+Early init took 1216.25s
+Loading error handling took 0.03s
+Loading script took 0.28s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.09s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/Users/cats/Library/RenPy/backups/falsaritas_perfect_order':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel Iris OpenGL Engine'
+Version: b'2.1 INTEL-16.5.14'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1178, 663) drawable=(2356, 1326)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 449, in script
+    if ending == 0:
+  File "/Users/cats/Desktop/renpy-8.3.2-sdk/renpy/ast.py", line 1843, in execute
+    if renpy.python.py_eval(condition):
+  File "/Users/cats/Desktop/renpy-8.3.2-sdk/renpy/python.py", line 1209, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "/Users/cats/Desktop/renpy-8.3.2-sdk/renpy/python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 449, in <module>
+    if ending == 0:
+NameError: name 'ending' is not defined
+
+While running game code:
+  File "game/script.rpy", line 449, in script
+    if ending == 0:
+  File "game/script.rpy", line 449, in <module>
+    if ending == 0:
+NameError: name 'ending' is not defined
+Resetting cache.
+Early init took 1504.67s
+Loading error handling took 0.03s
+Loading script took 0.27s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 448: expected statement.
+    ending = 0
+           ^
+DPI scale factor: 1.000000
+Interface start took 0.13s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel Iris OpenGL Engine'
+Version: b'2.1 INTEL-16.5.14'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1178, 663) drawable=(2356, 1326)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1520.33s
+Loading error handling took 0.03s
+Loading script took 0.27s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.09s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/Users/cats/Library/RenPy/backups/falsaritas_perfect_order':
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.05s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 800)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel Iris OpenGL Engine'
+Version: b'2.1 INTEL-16.5.14'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1178, 663) drawable=(2356, 1326)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.05s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.04s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
