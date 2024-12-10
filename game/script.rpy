@@ -68,11 +68,19 @@ default finn_status2 = False
 default finn_status3 = False
 default finn_status4 = False
 
+transform smol:
+    zoom 0.75
+
 # Start the game
 label start:
-    scene bg cafe 
+    scene subway_tile
+    # increase the subway-tile-bg size to fit the screen
     with fade
     show manager_normal
+
+    show burrito_station
+
+
     with dissolve
     m "Welcome to the Burrito Bar! I'm Aman, your manager. Let’s see how I can help you today!"
     
@@ -103,7 +111,7 @@ label manager_hint:
 # Order Process - Burrito or Bowl
 label order_process:
     m "Lets get started. Would you like a burrito or a bowl?"
-    play music "sunflower-slow-drag.ogg"  # Play music example
+    # play music "sunflower-slow-drag.ogg"  # Play music example
 
     menu:
         "Burrito":
@@ -130,8 +138,8 @@ label order_process:
 # Finn Hart Interaction (Rice and Beans)
 label finn_interaction:
     show finn_normal with dissolve
-    f "Hey! What can I get for you today?"
 
+    f "Hey! What can I get for you today?"
     menu:
         "Rice and Beans":
             $ player_rice = generate_order(1)
