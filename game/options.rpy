@@ -13,7 +13,9 @@
 ## The _() surrounding the string marks it as eligible for translation.
 
 define config.name = _("Falsaritas: Perfect Order")
-
+# screen size
+define config.screen_width = 1024
+define config.screen_height = 768
 
 ## Determines if the title given above is shown on the main menu screen. Set
 ## this to False to hide the title.
@@ -48,7 +50,7 @@ define build.name = "FalsaritasPerfectOrder"
 
 define config.has_sound = True
 define config.has_music = True
-define config.has_voice = True
+define config.has_voice = False
 
 
 ## To allow the user to play a test sound on the sound or voice channel,
@@ -150,7 +152,7 @@ define config.save_directory = "FalsaritasPerfectOrder-1730390019"
 ##
 ## The icon displayed on the taskbar or dock.
 
-define config.window_icon = "gui/window_icon.png"
+define config.window_icon = "gui/Falsaritas_logo.png"
 
 
 ## Build configuration #########################################################
