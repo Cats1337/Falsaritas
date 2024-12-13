@@ -1,0 +1,6 @@
+traceback.txt
+log.txt
+error.txt
+*.save
+# save folder
+save/
