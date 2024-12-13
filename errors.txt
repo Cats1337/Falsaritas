@@ -2,9 +2,49 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 448: expected statement.
-    ending = 0
-           ^
+File "game/script.rpy", line 550: end of line expected.
+    show burrito-bowl_5-5 with dissolve at truecenter
+                                        ^
 
-Ren'Py Version: Ren'Py 8.3.2.24090902
-Thu Nov 21 16:05:53 2024
+File "game/script.rpy", line 555: end of line expected.
+    show burrito_4-5 with dissolve at truecenter
+                                   ^
+
+File "game/script.rpy", line 557: end of line expected.
+    show burrito-bowl_4-5 with dissolve at truecenter
+                                        ^
+
+File "game/script.rpy", line 562: end of line expected.
+    show burrito_3-5 with dissolve at truecenter
+                                   ^
+
+File "game/script.rpy", line 564: end of line expected.
+    show burrito-bowl_3-5 with dissolve at truecenter
+                                        ^
+
+File "game/script.rpy", line 569: end of line expected.
+    show burrito_2-5 with dissolve at truecenter
+                                   ^
+
+File "game/script.rpy", line 571: end of line expected.
+    show burrito-bowl_2-5 with dissolve at truecenter
+                                        ^
+
+File "game/script.rpy", line 576: end of line expected.
+    show burrito_1-5 with dissolve at truecenter
+                                   ^
+
+File "game/script.rpy", line 578: end of line expected.
+    show burrito-bowl_1-5 with dissolve at truecenter
+                                        ^
+
+File "game/script.rpy", line 583: end of line expected.
+    show burrito_0-5 with dissolve at truecenter
+                                   ^
+
+File "game/script.rpy", line 585: end of line expected.
+    show burrito-bowl_0-5 with dissolve at truecenter
+                                        ^
+
+Ren'Py Version: Ren'Py 8.3.4.24120703
+Fri Dec 13 00:03:09 2024

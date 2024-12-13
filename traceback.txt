@@ -1,28 +1,26 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 449, in script
-    if ending == 0:
-  File "game/script.rpy", line 449, in <module>
-    if ending == 0:
+  File "game/script.rpy", line 231, in script
+    $ ending += 1;
+  File "game/script.rpy", line 231, in <module>
+    $ ending += 1;
 NameError: name 'ending' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 449, in script
-    if ending == 0:
-  File "/Users/cats/Desktop/renpy-8.3.2-sdk/renpy/ast.py", line 1843, in execute
-    if renpy.python.py_eval(condition):
-  File "/Users/cats/Desktop/renpy-8.3.2-sdk/renpy/python.py", line 1209, in py_eval
-    return py_eval_bytecode(code, globals, locals)
-  File "/Users/cats/Desktop/renpy-8.3.2-sdk/renpy/python.py", line 1202, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/script.rpy", line 449, in <module>
-    if ending == 0:
+  File "game/script.rpy", line 231, in script
+    $ ending += 1;
+  File "C:\Users\brens\OneDrive\Desktop\renpy-8.3.4-sdk\renpy\ast.py", line 827, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\brens\OneDrive\Desktop\renpy-8.3.4-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/script.rpy", line 231, in <module>
+    $ ending += 1;
 NameError: name 'ending' is not defined
 
-macOS-10.16-x86_64-i386-64bit x86_64
-Ren'Py 8.3.2.24090902
+Windows-10-10.0.22631 AMD64
+Ren'Py 8.3.4.24120703
 Falsaritas: Perfect Order 1.0
-Thu Nov 21 16:01:15 2024
+Thu Dec 12 23:53:02 2024
